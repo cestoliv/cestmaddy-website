@@ -6,12 +6,11 @@ Before you start creating your (super) website, you need to understand how **ces
 
 Then, all the content will be placed in the `source` folder. You will be able to place **Markdown** files, with **Shortcodes**, as well as classic files such as images.
 
-For example, to create the following page :
-
-    domain.com/hello
+For example, to create `domain.com/hello`
 
 You will need to create a `hello.md` file in the `source` directory.
 
 
 **Configuration**
 - [Basic configuration](/documentation/configuration/basic)
+- [Adding a blog](/documentation/configuration/blog)

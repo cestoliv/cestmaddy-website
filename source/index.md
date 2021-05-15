@@ -6,4 +6,4 @@
 You will be able to create static pages, but also create blogs and host podcasts!
 
 ## Self-hosted
-cestmaddy is self-hosting, [here's how to install it](/documentation/installation) (I promise, it's easy)
+cestmaddy is self-hosting, [here's how to install it](/documentation) (I promise, it's easy)

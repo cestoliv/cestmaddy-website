@@ -3,4 +3,5 @@
 
 This is **THE** choice. You can choose to be a good person or not. (we will continue to love you)
 
-- [Linux (the good choice)](/documentation/installation/linux)
+- [Linux](/documentation/installation/linux)
+- [Docker](/documentation/installation/docker)

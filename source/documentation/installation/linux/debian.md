@@ -8,27 +8,36 @@ The **cestmaddy** dependencies are as follows:
 - git
 - nodejs
 - npm
-
-Use the following command to install them :
-
-    sudo apt install git nodejs npm
+- imagemagick
 
 ### Downloading
 You will then need to download the latest version of **cestmaddy** from our repository.
 To do so, use the following command:
-
-    git clone https://github.com/cestoliv/cestmaddy.git
+```bash
+git clone https://git.cestoliv.com/cestoliv/cestmaddy.git
+```
 
 ### First start
 Then go to the **cestmaddy** directory created by `git` :
-
-    cd cestmaddy
+```bash
+cd cestmaddy
+```
 Then install the dependencies via the `npm` dependency manager:
+```bash
+npm install
+```
+   
+Then move the default files (or create your own directly if you are an expert) :
+```bash
+cp res/deployment/default/config.yml config.yml
+cp -r res/deployment/default/source source/
+cp -r res/deployment/default/custom custom/
+```
 
-    npm install
 And finally start **cestmaddy** with the following command :
-
-    npm start
+```bash
+npm start
+```
 
 If everything went well, **cestmaddy** will compile the sources and then launch the web server, go to `http://localhost:8625`, you should see this :
 

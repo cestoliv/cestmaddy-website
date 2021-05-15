@@ -1,27 +1,28 @@
-# Configuration
-## Basic configuration
+# Basic Configuration
 
-The configuration is done in the `config.yml` file. The minimal configuration is the following, let's unpack it!
+The configuration is done in the `config.yml` file and in the `.env` file. The minimal configuration is the following, let's unpack it!
 
-    server:
-        port: 80
-        hide_html_extension: true
-        domain: "https://cestmaddy.com"
+## config.yml
+```yaml
+server:
+    hide_html_extension: true
+    domain: "https://cestmaddy.com"
 
-    content:
-        language: fr
-        header_file: "./source/header.md"
-        footer_file: "./source/footer.md"
-        theme: "clean"
+content:
+    title: "My website"
+    language: fr
+    header_file: "./source/header.md"
+    footer_file: "./source/footer.md"
+    theme: "clean"
+```
 
-### Server
+### Server part
 The first part, server, configures the server (logical)
 
-- **port**: The listening port of the cestmaddy server
 - **hide_html_extension**: If set to True, the extensions `.html` will be hidden (`domain.com/hello.html` will become `domain.com/hello`)
 - **domain**: The domain of your website (you can define a sub-folder), useful for sitemaps, RSS feeds, etc.
 
-### Content
+### Content part
 Here is now the configuration of your content!
 
 - **language**: The main language of your content, on two characters

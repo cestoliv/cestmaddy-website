@@ -2,7 +2,7 @@
 
 [Home](/)
 [Documentation](/documentation)
-[GitHub](https://github.com/cestoliv/cestmaddy)
+[Gitea](https://git.cestoliv.com/cestoliv/cestmaddy)
 
 <style>
 a {
